@@ -46,8 +46,6 @@ You can also download the jar and install it by yourself. [here](https://github.
 <h3>Use without Spring</h3>
 
 ###
-public class Test {
-	
 	public static void main(String[] args) {
 	  //create a datasource
 		MysqlDataSource datasource = new MysqlDataSource();
@@ -69,5 +67,4 @@ public class Test {
 		//get procedures
 		 Map<String, Procedure> procedures=metaLoader.getProcedures();
 	}
-}
 ###
