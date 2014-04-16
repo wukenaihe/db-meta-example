@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>db-meta-demo</groupId>
+	<artifactId>db-meta-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<repositories>
+		<!-- <repository> -->
+		<!-- <id>github</id> -->
+		<!-- <url>https://raw.github.com/wukenaihe/db-meta/branch/db-meta-repo/</url> -->
+		<!-- </repository> -->
+
+		<!-- <repository> -->
+		<!-- <id>nexus-osc</id> -->
+		<!-- <name>local private nexus</name> -->
+		<!-- <url>http://maven.oschina.net/content/repositories/thirdparty/</url> -->
+		<!-- <releases> -->
+		<!-- <enabled>true</enabled> -->
+		<!-- </releases> -->
+		<!-- <snapshots> -->
+		<!-- <enabled>true</enabled> -->
+		<!-- </snapshots> -->
+		<!-- </repository> -->
+		<repository>
+			<id>clojars</id>
+			<name>Clojars repository</name>
+			<url>https://clojars.org/repo</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.clojars.xumh</groupId>
+			<artifactId>db-meta</artifactId>
+			<version>0.0.1-Release</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.18</version>
+		</dependency>
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>3.2.4.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.2.4.RELEASE</version>
+		</dependency>
+	</dependencies>
+</project>
